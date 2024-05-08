@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd micro-front-end-activate && npm run dev \" \"cd micro-front-end-main && npm run dev\" \"cd micro-front-end-shell && npm run dev \"",
+    "build": "concurrently \"cd micro-front-end-activate && npm run build \" \"cd micro-front-end-main && npm run build\" \"cd micro-front-end-shell && npm run build \"",
+    "serve": "concurrently \"cd micro-front-end-activate && npm start \" \"cd micro-front-end-main && npm start\" \"cd micro-front-end-shell && npm start \""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
