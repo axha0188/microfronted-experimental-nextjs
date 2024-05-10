@@ -128,6 +128,9 @@ npm run build
 npm run dev 
 
 npm start
+
+node version: v16.20.2
+
 ```
 
 ## Testing setup

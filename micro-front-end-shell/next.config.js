@@ -19,6 +19,7 @@ module.exports = {
         app2: "app2",
       },
       exposes: {
+        // "./page": "../page"
       },
     };
     config.cache = false;

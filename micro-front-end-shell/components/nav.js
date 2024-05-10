@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from '../styles/Nav.module.css'
+import Link from "next/link";
+import styles from "../styles/Nav.module.css";
 
 const Nav = () => (
   <div className={styles.nav}>
@@ -8,6 +8,6 @@ const Nav = () => (
     <Link href="/luigi">Load Luigi</Link>
     <Link href="/allan">Load CR7</Link>
   </div>
-)
+);
 
-export default Nav
+export default Nav;
