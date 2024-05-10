@@ -20,7 +20,11 @@ module.exports = {
       },
       exposes: {
         "./mario": "./components/mario",
+        "./counter": "./pages/counter/index",
       },
+      extraOptions:{
+        exposePages: true,
+      }
     };
     config.cache = false;
     withModuleFederation(config, options, mfConf);
